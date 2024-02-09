@@ -25,7 +25,8 @@ public class AdderAndSubtractor extends JFrame {
         mainPanel.add(text, BorderLayout.NORTH);
 
         JPanel keypad = new JPanel();
-        keypad.setLayout(new GridLayout(3, 3));
+        keypad.setLayout(new GridLayout(4, 3));
+
 
         JButton button7 = new JButton("7");
         setNum(button7,text,"7");
@@ -54,6 +55,11 @@ public class AdderAndSubtractor extends JFrame {
         JButton button3 = new JButton("3");
         setNum(button3,text,"3");
         keypad.add(button3);
+        JButton button0 = new JButton("0");
+        setNum(button0,text,"0");
+        keypad.add(button0);
+
+
 
         JPanel allKeys = new JPanel();
         allKeys.add(keypad);
