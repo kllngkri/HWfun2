@@ -1,15 +1,12 @@
-import java.awt.BorderLayout;
-import java.awt.Dimension;
+import java.awt.*;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 public class AppWindow extends JFrame {
     public AppWindow() {
-        JPanel panelA = new JPanel();
+        JPanel panelAll = new JPanel();
+        panelAll.setLayout(new BorderLayout(10,10));
+
 
         JButton buttonA = new JButton("Button A");
         JButton buttonB = new JButton("Button B");
@@ -17,8 +14,8 @@ public class AppWindow extends JFrame {
         JButton buttonD = new JButton("Button D");
         JButton buttonE = new JButton("Button E");
 
-        JTextField textA = new JTextField();
-        JTextField textB = new JTextField();
+        JTextField textA = new JTextField(15);
+        JTextField textB = new JTextField(15);
 
         textA.setMaximumSize(new Dimension(Short.MAX_VALUE, 20));
 
@@ -26,20 +23,38 @@ public class AppWindow extends JFrame {
         JLabel labelB = new JLabel("Label B");
         JLabel labelC = new JLabel("Label C");
 
-        panelA.add(labelA);
-        panelA.add(textA);
-        panelA.add(buttonA);
-        panelA.add(labelB);
-        panelA.add(buttonB);
+        Insets panelInsets = new Insets(10, 10, 10, 10);
+        panelAll.setBorder(BorderFactory.createEmptyBorder(10, 10, -1, 10));
 
-        panelA.add(labelC);
-        panelA.add(buttonC);
-        panelA.add(buttonD);
-        panelA.add(textB);
+        Container container = new Container();
+        container.setLayout(new BoxLayout(container,BoxLayout.Y_AXIS));
+        container.add(labelA);
+        container.add(textA);
+        container.add(buttonA);
+        container.add(Box.createVerticalStrut(70));
+        container.add(buttonB);
+        panelAll.add(container,BorderLayout.WEST);
 
-        panelA.add(buttonE);
+        JPanel panelB = new JPanel();
+        panelB.setLayout(new BoxLayout(panelB,BoxLayout.Y_AXIS));
+        panelB.add(labelC,BorderLayout.CENTER);
+        panelB.add(buttonC);
+        panelB.add(Box.createVerticalStrut(20));
+        panelB.add(buttonD);
+        panelB.add(textB);
+        panelB.add(Box.createVerticalStrut(110));
+        panelAll.add(panelB,BorderLayout.EAST);
 
-        add(panelA, BorderLayout.CENTER);
+
+        JPanel boxButtonE = new JPanel();
+        boxButtonE.add(buttonE,BorderLayout.CENTER);
+        panelAll.add(boxButtonE,BorderLayout.PAGE_END);
+
+
+
+        add(panelAll, BorderLayout.CENTER);
+
+
 
         setSize(400, 250);
         setResizable(false);
