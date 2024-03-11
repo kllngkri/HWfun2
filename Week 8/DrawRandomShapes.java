@@ -16,10 +16,10 @@ public class DrawRandomShapes extends JPanel {
             int shapes = random.nextInt(2);
             if (shapes == 1) {
                 g.setColor(Color.PINK);
-                g.fillRect(random.nextInt(300), random.nextInt(300), 100, 100);
+                g.fillRect(random.nextInt(300), random.nextInt(300), random.nextInt(100,300), random.nextInt(100,300));
             } else {
                 g.setColor(Color.blue);
-                g.drawLine(random.nextInt(150), random.nextInt(150), 100, 100);
+                g.drawLine(random.nextInt(150), random.nextInt(150), random.nextInt(150,300), random.nextInt(150,300));
             }
         }
 

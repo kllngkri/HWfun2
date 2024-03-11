@@ -5,6 +5,7 @@ public class DrawHatTest {
         DrawHat panel = new DrawHat();
         JFrame application = new JFrame();
 
+
         application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         application.add(panel);
