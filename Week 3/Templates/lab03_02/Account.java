@@ -2,7 +2,6 @@ public class Account {
     private String accountNumber;
     private double balance;
     private boolean status = true;
-
     private boolean SUSPEND = false;
     private boolean ACTIVE = true;
 

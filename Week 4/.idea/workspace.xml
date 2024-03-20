@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71b6432-a61a-4a08-81bb-949b2f18a34d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Week 5/Templates/lab05_02/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Week 5/Templates/lab05_02/Monk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week 3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 3/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week 3/Templates/hw03_01/Vector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 3/Templates/hw03_01/Vector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 4/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 4/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 4/AccountRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 4/AccountRegistry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Week 4/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 4/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java tutorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java tutorial/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 2/src/DayFullToBrev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 2/src/Lab22IfClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 2/src/Lab23IfClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 2/src/Lab24While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 2/src/Lab25While.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 2/src/SumAverageRunningInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week 7/Week 7/Templates/lab07_02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week 3/Templates/lab03_02/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Week 3/Templates/lab03_02/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +36,9 @@
     "Application.MainApp.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Desktop/java tutorial",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/Fun2Exercise/Week 4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +68,7 @@
       <workItem from="1704441174427" duration="8444000" />
       <workItem from="1705053941149" duration="625000" />
       <workItem from="1705074873419" duration="981000" />
+      <workItem from="1710442287432" duration="1897000" />
     </task>
     <servers />
   </component>
